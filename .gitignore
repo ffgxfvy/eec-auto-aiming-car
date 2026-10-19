@@ -1,0 +1,25 @@
+# ---- Keil / MDK ----
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.o  *.crf  *.d  *.axf  *.hex  *.lst  *.map
+*.dep  *.lnp  *.plg  *.bak  *.scvd
+Project.uvguix.*
+Project.uvoptx
+
+# ---- ST 库与启动文件（第三方，请自行从 ST 官网/开发板资料补齐）----
+Library/
+Start/
+STM32F10x_FWLib/
+
+# ---- 其他 ----
+__pycache__/
+*.pyc
+*.zip
+*.rar
+*.7z
+*.pdf
+.DS_Store
+Thumbs.db
+desktop.ini

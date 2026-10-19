@@ -1,0 +1,15 @@
+#ifndef __KEY_H
+#define __KEY_H
+
+/*
+ * ??????:
+ * KEY1 -> PA9  (?? 1)
+ * KEY2 -> PA11 (?? 2)
+ * KEY3 -> PA15 (?? 3) -> ??: ????JTAG
+ * KEY4 -> PB4  (?? 4) -> ??: ????JTAG
+ */
+
+void Key_Init(void);
+uint8_t Key_GetNum(void);
+
+#endif
